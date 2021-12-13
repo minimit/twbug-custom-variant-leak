@@ -1,0 +1,11 @@
+.test {
+  &.object-cover, &.relative {
+    &[src*=".jpg"] {
+      position: absolute;
+    }
+  }
+}
+
+.test-custom-variant {
+  @apply on:relative;
+}
