@@ -1,11 +1,11 @@
-.test.object-cover[src*=".jpg"], .test.relative[src*=".jpg"] {
-      position: absolute;
-    }
-
-.test-custom-variant.on {
-      position: relative;
+.test-custom-css.relative {
+  position: absolute;
 }
 
-.test-custom-variant.on[src*=".jpg"] {
-      position: absolute;
-    }
+.test-custom-variant:hover {
+  position: relative;
+}
+
+.test-custom-css.test-custom-variant:hover {
+  position: absolute;
+}

@@ -1,11 +1,7 @@
-.test {
-  &.object-cover, &.relative {
-    &[src*=".jpg"] {
-      position: absolute;
-    }
-  }
+.test-custom-css.relative {
+  position: absolute;
 }
 
 .test-custom-variant {
-  @apply on:relative;
+  @apply hover:relative;
 }
